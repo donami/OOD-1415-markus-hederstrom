@@ -1,7 +1,7 @@
 # Implementation Plan
 
-Title: Implementation Plan for System TwitterNethack
-2017-04-10
+Title: Implementation Plan for System TwitterNethack  
+2017-04-10  
 
 ### Authors And Author Contribution
 

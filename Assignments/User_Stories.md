@@ -1,7 +1,7 @@
 # User Stories
 
-Assignment in the course PA1415 Programvarudesign
-2017-04-10
+Assignment in the course PA1415 Programvarudesign  
+2017-04-10  
 
 ### Authors And Author Contribution
 
@@ -25,11 +25,11 @@ Nethack is an old game where you walk in a dungeon and explore. Each level has a
 * #18 As a player I want there to be other characters that move around freely in the game which I can interact with so that the game gets more fun
 
 ## User Stories
-**Motivation for priority:**
+**Motivation for priority:**  
 * Vital part of the game,
 * The functionality is included in more than one use case
 
-Order of importance, descending order:
+Order of importance, descending order:  
 
 |ID	          | User Story	                                                                                                                   | Parent Epic   |
 | ------------|--------------------------------------------------------------------------------------------------------------------------------|---------------|

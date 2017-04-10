@@ -1,6 +1,6 @@
 # List of Use Cases for System TwitterNethack
-Assignment in the course PA1415 Programvarudesign
-2017-04-06
+Assignment in the course PA1415 Programvarudesign  
+2017-04-06  
 
 | Author Name	          | Social security number	| Thinking	 | Writing	|
 | -------------         |------------------------	| ---------- |--------- |
