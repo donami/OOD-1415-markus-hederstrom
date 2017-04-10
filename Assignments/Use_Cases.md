@@ -85,14 +85,14 @@ Nethack is an old game where you walk in a dungeon and explore. Each level has a
 **Concerned user stories:** 3, 4  
 **Main Course of Events:**  
 
-| Actor                                                               | System                                                             |
-| :------------------------------------------------------------------ | :----------------------------------------------------------------- |
-| 1. Player enters item menu                                          |                          |                                         |                           
-|                                                                     |  2. System display gear and items                                  |                                
-| 3. Player marks item or gear                                        |                            |                                       |                             
-|                                                                     |  4. System display information about item                          |                            
-| 5. Player exit menu                                                 |                                                                    |
-|                                                                     |  6. System save any new state of item or gear                      |                                         
+| Actor                                                               | System                                                   |
+| :------------------------------------------------------------------ | :--------------------------------------------------------|
+| 1. Player enters item menu                                          |                          |                               |                           
+|                                                                     |  2. System display gear and items                        |                                
+| 3. Player marks item or gear                                        |                            |                             |                             
+|                                                                     |  4. System display information about item                |                            
+| 5. Player exit menu                                                 |                                                          |
+|                                                                     |  6. System save any new state of item or gear            |                                         
 
 ## Use Case #6
 **Use Case:** Interact with character  
@@ -217,11 +217,11 @@ Nethack is an old game where you walk in a dungeon and explore. Each level has a
 **Description:** Display interaction options for item based on item type. Player can choose from the options and the system will execute it.  
 **Concerned user stories:** 3, 4  
 
-| Actor                                                               | System                                                             |
-| :------------------------------------------------------------------ | :----------------------------------------------------------------- |
-| 1. Player opens his backpack                                        |                                                                    |                            
-| 2. Player selects an item and enter “use”                           |                                                                    |                                        
-|                                                                     | 3. System executes the items function                              |                                     
+| Actor                                                               | System                                                           |
+| :------------------------------------------------------------------ | :----------------------------------------------------------------|
+| 1. Player opens his backpack                                        |                                                                  |                            
+| 2. Player selects an item and enter “use”                           |                                                                  |                     
+|                                                                     | 3. System executes the items function                            |                                     
 
 ## Use Case #16
 **Use Case:** Enter new cave  
@@ -274,8 +274,8 @@ Nethack is an old game where you walk in a dungeon and explore. Each level has a
 **Description:** Player sets off event that leads to player Characters HP becoming 0. Game over screen appears and then the player is taken to title screen.  
 **Concerned user stories:** 11  
 
-| Actor                                                               | System                                                             |
-| :------------------------------------------------------------------ | :----------------------------------------------------------------- |
-| 1. Player gets injured and health points become 0                   |                                                                    |                                                 
-|                                                                     | 2. System ends game session                                        |                         
-|                                                                     | 3. Player is taken to the title screen                             |                                      
+| Actor                                                               | System                                     |
+| :------------------------------------------------------------------ | :------------------------------------------|
+| 1. Player gets injured and health points become 0                   |                                            |                                                 
+|                                                                     | 2. System ends game session                |                         
+|                                                                     | 3. Player is taken to the title screen     |                                      
