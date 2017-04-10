@@ -33,9 +33,65 @@ We prioritized the use cases for the system according to.
 |     1       |    #1 - Player starts a new game                        |    100    |
 |     16      |    #16 - Enter new cave                                 |    100    |
 |     17      |    #17 - Scan page for other timelines                  |    100    |
-|     5       |    #5 - Player interacts with gear in his backpack      |           |
-|     15      |    #15 - Item interaction                               |           |
-|     2       |    #2 - Player joins an existing game                   |           |
-|     10      |    #10 - Enter chat room                                |           |
-|     9       |    #9 - Send chat message                               |           |
-|     4       |    #4 - Player interacts with new item                  |           |
+|     5       |    #5 - Player interacts with gear in his backpack      |    95     |
+|     15      |    #15 - Item interaction                               |    95     |
+|     2       |    #2 - Player joins an existing game                   |    85     |
+|     10      |    #10 - Enter chat room                                |    80     |
+|     9       |    #9 - Send chat message                               |    80     |
+|     4       |    #4 - Player interacts with new item                  |    80     |
+|     6       |    #6 - Interact with character                         |    70     |
+|     8       |    #8 - Use default item action                         |    70     |
+|     11      |    #11 - Leave chat room                                |    70     |
+|     7       |    #7 - Drop an item                                    |    65     |
+|     3       |    #3 - User sets up his player                         |    60     |
+|     12      |    #12 - Use item on another player                     |    55     |
+|     13      |    #13 - Give item from backpack to another player.     |    55     |
+|     14      |    #14 - Use items default action on pickup             |    50     |
+|     18      |    #18 - Falling rocks                                  |    45     |
+|     20      |    #20 - Player dies                                    |    45     |
+|     19      |    #19 - Falling rocks hit armor                        |    35     |
+
+
+## Estimated Velocity Per Iteration
+Each iteration has at most 80 points. Each point is worth one hour so 80 hours per sprint and one sprint lasts for 1 week.
+
+## Implementation Plan
+
+#### First iteration: (80 story points)
+
+| Use Case ID  | Use Case Name	                                          | Story Points  |
+| -------------|----------------------------------------------------------| ------------- |
+|     1        |    Player starts a new game                              |      15       |
+|     15       |    Item interaction                                      |      15       |
+|     20       |    Player dies                                           |      10       |
+|     4        |    Player interacts with new item                        |      10       |
+|     5        |    Player interacts with gear in his backpack            |      10       |
+|     16       |    Enter new cave                                        |      20       |
+
+#### Second iteration: (80 story points)
+
+| Use Case ID  | Use Case Name	                                          | Story Points  |
+| -------------|----------------------------------------------------------| ------------- |
+|     2        |    Player joins an existing game                         |      25       |
+|     10       |    Enter chat room                                       |      10       |
+|     11       |    Leave chat room                                       |      5        |
+|     17       |    Scan page for other timelines                         |      40       |
+
+#### Third iteration: (80 story points)
+
+| Use Case ID  | Use Case Name	                                          | Story Points  |
+| -------------|----------------------------------------------------------| ------------- |
+|     18       |    Falling rocks                                         |      20       |
+|     19       |    Falling rocks with armor                              |      10       |
+|     8        |    Use default item action                               |      10       |
+|     14       |    Use items default action on pickup                    |      10       |
+|     9        |    Send chat message                                     |      20       |
+|     6        |    Interact with character                               |      10       |
+
+#### Fourth iteration: (80 story points)
+
+| Use Case ID  | Use Case Name	                                          | Story Points  |
+| -------------|----------------------------------------------------------| ------------- |
+|     3        |    User sets up his player                               |      25       |
+|     12       |    Use item on another player                            |      30       |
+|     13       |    Give item from backpack to another player             |      25       |
