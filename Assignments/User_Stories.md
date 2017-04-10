@@ -23,3 +23,27 @@ Nethack is an old game where you walk in a dungeon and explore. Each level has a
 * #16 As a game designer I want the players to have health and the functionality of dieing so that the games do not get to easy
 * #17 As a player I should be able to pick up items to my backpack and use them or drop them so that the game gets more exciting
 * #18 As a player I want there to be other characters that move around freely in the game which I can interact with so that the game gets more fun
+
+## User Stories
+**Motivation for priority:**
+* Vital part of the game,
+* The functionality is included in more than one use case
+
+Order of importance, descending order:
+
+|ID	          | User Story	                                                                                                                   | Parent Epic   |
+| ------------|--------------------------------------------------------------------------------------------------------------------------------|---------------|
+|     1       | As a user of the application I shall be able to play the game so that I have a fun time.                                       |    -          |
+|     5       | As a player I would like to be able to communicate with other players so that the game also is social                          |    #15        |
+|     13      | As a game designer I would like the labyrinths to be randomized so that I don’t have to program all the different maps         |    #14        |
+|     4       | As a player I would like to have a backpack so that I can store items on me                                                    |    #17        |
+|     2       | As a player I should be able to join an existing game so that I can interact with other players.                               |    #15        |
+|     11      | As a game designer I would like the players to have health points so that they can lose and have to start over.                |    #16        |
+|     3       | As a player I would like to interact with items so that the gameplay becomes more varied                                       |    -          |
+|     7       | As a player I would like to see all the players in the chat room so that I know who I am talking to                            |    #15        |
+|     12      | As a game designer I would like to have items that fall on the players so that they lose health.                               |    #14        |
+|     10      | As a player I would like to be able to send my items to another player so that I can help him                                  |    #17        |
+|     9       | As a player I would like to be able to use my items on another player so that we can help each other or damage each other      |    #15        |
+|     8       | As a player I would like to be able to leave the chat so that I can concentrate on the gameplay                                |    #16        |
+|     6       | As a player I would like to be able to drop items from my inventory so that I can get rid of items that I do not want          |    #15        |
+|     19      | As a player I want to be able to interact with other characters in the game so that it gets more fun to play                   |    #16        |
