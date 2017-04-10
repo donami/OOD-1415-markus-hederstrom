@@ -1,6 +1,6 @@
 # PA1415 Programvarudesign
 
-## Grupp consists of
+## Group consists of
 Markus Hederström  
 Kristoffer Danbrandt  
 Dag Wirström  
