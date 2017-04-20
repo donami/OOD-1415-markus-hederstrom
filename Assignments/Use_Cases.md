@@ -16,6 +16,8 @@ Nethack is an old game where you walk in a dungeon and explore. Each level has a
 **Player:** The player who is playing the game  
 **System:** The operating system as in the game itself  
 
+![UML Use Case Diagram](TwitterNethack.png "UML Use Case Diagram")
+
 ## Use Cases
 
 #### Use Case #1
@@ -279,4 +281,4 @@ Nethack is an old game where you walk in a dungeon and explore. Each level has a
 | :------------------------------------------------------------------ | :------------------------------------------|
 | 1. Player gets injured and health points become 0                   |                                            |                                                 
 |                                                                     | 2. System ends game session                |                         
-|                                                                     | 3. Player is taken to the title screen     |                                      
+|                                                                     | 3. Player is taken to the title screen     |         
