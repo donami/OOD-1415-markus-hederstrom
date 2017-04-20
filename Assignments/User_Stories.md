@@ -47,3 +47,4 @@ Order of importance, descending order:
 |     8       | As a player I would like to be able to leave the chat so that I can concentrate on the gameplay                                |    #16        |
 |     6       | As a player I would like to be able to drop items from my inventory so that I can get rid of items that I do not want          |    #15        |
 |     19      | As a player I want to be able to interact with other characters in the game so that it gets more fun to play                   |    #16        |
+|     20      | As a player I want to be able to customize my character so that I am different than other players                              |    -          |
