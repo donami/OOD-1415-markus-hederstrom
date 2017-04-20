@@ -52,7 +52,7 @@ Nethack is an old game where you walk in a dungeon and explore. Each level has a
 **Use Case:** User sets up his player  
 **Actors:** Player  
 **Description:** The player starts the game and selects “Setup player” from the menu.  
-**Concerned user stories:**  
+**Concerned user stories:** 20  
 **Main Course of Events:**  
 
 
@@ -98,7 +98,7 @@ Nethack is an old game where you walk in a dungeon and explore. Each level has a
 **Use Case:** Interact with character  
 **Actors:** Player, System  
 **Description:** A player enters a dungeon and discovers a character. Player presses key to start a dialog between the two. The system displays the dialog.  
-**Concerned user stories:**  
+**Concerned user stories:** 18
 
 | Actor                                                               | System                                                             |
 | :------------------------------------------------------------------ | :----------------------------------------------------------------- |
@@ -227,6 +227,7 @@ Nethack is an old game where you walk in a dungeon and explore. Each level has a
 **Use Case:** Enter new cave  
 **Actors:** Player, System  
 **Description:** On entering a new cave the system informs the player about information and the owner of the cave.  
+**Concerned user stories:** 14    
 
 | Actor                                                               | System                                                             |
 | :------------------------------------------------------------------ | :----------------------------------------------------------------- |
@@ -248,7 +249,7 @@ Nethack is an old game where you walk in a dungeon and explore. Each level has a
 ## Use Case #18
 **Use Case:** Falling rocks  
 **Actors:** System, Player  
-**Description:** During labyrinth creation some areas gets artifact for falling rock, when player steps on that area a rock falls and player lose a predetermined health point.  
+**Description:** As a player I want to be able to get hurt by falling rocks so that the game get more exciting.
 **Concerned user stories:** 11, 12  
 
 | Actor                                                               | System                                                             |
@@ -260,7 +261,7 @@ Nethack is an old game where you walk in a dungeon and explore. Each level has a
 ## Use Case #19
 **Use Case:** Falling rocks hit armor  
 **Actors:** System, Player  
-**Description:** During labyrinth creation some areas gets artifact for falling rock, when player steps on that area a rock falls and depending on size or other attributes may or may not damage the armor.  
+**Description:** As a player I would like to have my armor to protect me from falling rocks so that the armor is more useful.    
 **Concerned user stories:** 12  
 
 | Actor                                                               | System                                                                                        |
