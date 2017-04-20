@@ -27,6 +27,7 @@ Nethack is an old game where you walk in a dungeon and explore. Each level has a
 **Use Case:** Player starts a new game  
 **Actors:** Player  
 **Description:** The player starts the game and sees an opening screen with two options: Start a new game or join an existing game. The player selects “new game”  
+**Preconditions:** Player must have the game  
 **Concerned user stories:** 1  
 **Main Course of Events:**  
 
@@ -42,6 +43,7 @@ Nethack is an old game where you walk in a dungeon and explore. Each level has a
 **Use Case:** Item interaction  
 **Actors:** Player, System  
 **Description:** Display interaction options for item based on item type. Player can choose from the options and the system will execute it.  
+**Preconditions:** 1. Player must be in a cave. 2. Item must be usable.
 **Concerned user stories:** 3, 4  
 
 | Actor                                                               | System                                                           |
@@ -58,6 +60,7 @@ Nethack is an old game where you walk in a dungeon and explore. Each level has a
 **Use Case:** Player dies  
 **Actors:** System, Player  
 **Description:** Player sets off event that leads to player Characters HP becoming 0. Game over screen appears and then the player is taken to title screen.  
+**Preconditions:** 1. Player must be in a cave.  
 **Concerned user stories:** 11  
 
 | Actor                                                               | System                                     |
@@ -66,12 +69,13 @@ Nethack is an old game where you walk in a dungeon and explore. Each level has a
 |                                                                     | 2. System ends game session                |                         
 |                                                                     | 3. Player is taken to the title screen     |   
 
-**Alternate flow of events:** None  
+**Alternate flow of events:** 1. Player has health left. The player loses health points instead.    
 
 ## Use Case #4
 **Use Case:** Player interacts with new item  
 **Actors:** Player  
 **Description:** Player finds item in labyrinth  
+**Preconditions:** 1. Player must be in a cave. 2. There must be an item in the cave  
 **Concerned user stories:** 3  
 **Main Course of Events:**  
 
@@ -89,6 +93,7 @@ Nethack is an old game where you walk in a dungeon and explore. Each level has a
 **Use Case:** Player interacts with gear in his backpack.  
 **Actors:** Player, System  
 **Description:** Player gets information about gear and items.  
+**Preconditions:** There must be an item in the backpack that is interactable  
 **Concerned user stories:** 3, 4  
 **Main Course of Events:**  
 
@@ -107,10 +112,12 @@ Nethack is an old game where you walk in a dungeon and explore. Each level has a
 **Use Case:** Enter new cave  
 **Actors:** Player, System  
 **Description:** On entering a new cave the system informs the player about information and the owner of the cave.  
+**Preconditions:** 1. Player must have started the game 2. There needs to be caves  
+**Concerned user stories:** 14  
 
 | Actor                                                               | System                                                             |
 | :------------------------------------------------------------------ | :----------------------------------------------------------------- |
 | 1. Player enters cave                                               |                                                                    |                 
 |                                                                     | 2. System displays a text about the cave and it’s owner            |   
 
-**Alternate flow of events:** None
+**Alternate flow of events:** 1. There is no caves available. System notifies the player  
