@@ -31,20 +31,20 @@ Nethack is an old game where you walk in a dungeon and explore. Each level has a
 
 Order of importance, descending order:  
 
-|ID	          | User Story	                                                                                                                   | Parent Epic   |
-| ------------|--------------------------------------------------------------------------------------------------------------------------------|---------------|
-|     1       | As a user of the application I shall be able to play the game so that I have a fun time.                                       |    -          |
-|     5       | As a player I would like to be able to communicate with other players so that the game also is social                          |    #15        |
-|     13      | As a game designer I would like the labyrinths to be randomized so that I don’t have to program all the different maps         |    #14        |
-|     4       | As a player I would like to have a backpack so that I can store items on me                                                    |    #17        |
-|     2       | As a player I should be able to join an existing game so that I can interact with other players.                               |    #15        |
-|     11      | As a game designer I would like the players to have health points so that they can lose and have to start over.                |    #16        |
-|     3       | As a player I would like to interact with items so that the gameplay becomes more varied                                       |    -          |
-|     7       | As a player I would like to see all the players in the chat room so that I know who I am talking to                            |    #15        |
-|     12      | As a game designer I would like to have items that fall on the players so that they lose health.                               |    #14        |
-|     10      | As a player I would like to be able to send my items to another player so that I can help him                                  |    #17        |
-|     9       | As a player I would like to be able to use my items on another player so that we can help each other or damage each other      |    #15        |
-|     8       | As a player I would like to be able to leave the chat so that I can concentrate on the gameplay                                |    #16        |
-|     6       | As a player I would like to be able to drop items from my inventory so that I can get rid of items that I do not want          |    #15        |
-|     19      | As a player I want to be able to interact with other characters in the game so that it gets more fun to play                   |    #16        |
-|     20      | As a player I want to be able to customize my character so that I am different than other players                              |    -          |
+|ID	          | User Story	                                                                                                  |           Conditions of Satisfaction            | Parent Epic   |
+|--|--------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|---------------|
+|1 | As a user of the application I shall be able to play the game so that I have a fun time.                                 |The user is able to play the game                |    -          |
+|5 | As a player I would like to be able to communicate with other players so that the game also is social                    |Player can communicate with other players        |    #15        |
+|13| As a game designer I would like the labyrinths to be randomized so that I don’t have to program all the different maps   |The labyrinths are randomized                    |    #14        |
+|4 | As a player I would like to have a backpack so that I can store items on me                                              |Player have a backpack where he can store items  |    #17        |
+|2 | As a player I should be able to join an existing game so that I can interact with other players.                         |Player can join existing game                    |    #15        |
+|11| As a game designer I would like the players to have health points so that they can lose and have to start over.          |Players have health points so they can lose      |    #16        |
+|3 | As a player I would like to interact with items so that the gameplay becomes more varied                                 |Player can interact with items                   |    -          |
+|7 | As a player I would like to see all the players in the chat room so that I know who I am talking to                      |Player can see other players in chat room        |    #15        |
+|12| As a game designer I would like to have items that fall on the players so that they lose health.                         |Players get injured when rocks fall on them      |    #14        |
+|10| As a player I would like to be able to send my items to another player so that I can help him                            |Player can send items to other players           |    #17        |
+|9 | As a player I would like to be able to use my items on another player so that we can help each other or damage each other|Player can use items on other players            |    #15        |
+|8 | As a player I would like to be able to leave the chat so that I can concentrate on the gameplay                          |Player can leave a chat room                     |    #16        |
+|6 | As a player I would like to be able to drop items from my inventory so that I can get rid of items that I do not want    |Player can drop items from backpack              |    #15        |
+|19| As a player I want to be able to interact with other characters in the game so that it gets more fun to play             |Player can interact with characters              |    #16        |
+|20| As a player I want to be able to customize my character so that I am different than other players                        |Player is able to customize character            |    -          |
