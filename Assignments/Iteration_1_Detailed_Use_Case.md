@@ -18,10 +18,11 @@ Nethack is an old game where you walk in a dungeon and explore. Each level has a
 | ------------|---------------------------------------------------------| ------------- |
 |     1       |  Player starts a new game                               |      15       |
 |     15      |  Item interaction                                       |      15       |
-|     20      |  Player dies                                            |      10       |
+|     20      |  Player dies                                            |      5        |
 |     4       |  Player interacts with new item                         |      10       |
 |     5       |  Player interacts with gear in his backpack             |      10       |
-|     16      |  Enter new cave                                         |      20       |
+|     16      |  Enter new cave                                         |      15       |
+|     21      |  Character movement                                     |      10       |
 
 #### Use Case #1
 **Use Case:** Player starts a new game  
@@ -121,3 +122,15 @@ Nethack is an old game where you walk in a dungeon and explore. Each level has a
 |                                                                     | 2. System displays a text about the cave and it’s owner            |   
 
 **Alternate flow of events:** 1. There is no caves available. System notifies the player  
+
+## Use Case #21
+**Use Case:** Character movement  
+**Actors:** System, Player  
+**Description:** Player enters direction to move in. System responds by moving the players location.  
+**Preconditions:** 1. Player must be in a cave.  
+**Concerned user stories:** 21  
+
+| Actor                                                               | System                                     |
+| :------------------------------------------------------------------ | :------------------------------------------|
+| 1. Player enters direction to move                                  |                                            |                                                 
+|                                                                     | 2. System updates players location         |           

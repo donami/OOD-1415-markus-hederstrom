@@ -32,6 +32,7 @@ We prioritized the use cases for the system according to.
 | ------------|---------------------------------------------------------| --------- |
 |     1       |    #1 - Player starts a new game                        |    100    |
 |     16      |    #16 - Enter new cave                                 |    100    |
+|     21      |    #21 - Character movement                             |    100    |
 |     17      |    #17 - Scan page for other timelines                  |    100    |
 |     5       |    #5 - Player interacts with gear in his backpack      |    95     |
 |     15      |    #15 - Item interaction                               |    95     |
@@ -59,14 +60,15 @@ Each iteration has at most 80 points. Each point is worth one hour so 80 hours p
 
 #### First iteration: (80 story points)
 
-| Use Case ID  | Use Case Name	                                          | Story Points  |
-| -------------|----------------------------------------------------------| ------------- |
-|     1        |    Player starts a new game                              |      15       |
-|     15       |    Item interaction                                      |      15       |
-|     20       |    Player dies                                           |      10       |
-|     4        |    Player interacts with new item                        |      10       |
-|     5        |    Player interacts with gear in his backpack            |      10       |
-|     16       |    Enter new cave                                        |      20       |
+| Ues Case ID	| Use Case Name	                                          | Story Points  |
+| ------------|---------------------------------------------------------| ------------- |
+|     1       |  Player starts a new game                               |      15       |
+|     15      |  Item interaction                                       |      15       |
+|     20      |  Player dies                                            |      5        |
+|     4       |  Player interacts with new item                         |      10       |
+|     5       |  Player interacts with gear in his backpack             |      10       |
+|     16      |  Enter new cave                                         |      15       |
+|     21      |  Character movement                                     |      10       |
 
 #### Second iteration: (80 story points)
 
