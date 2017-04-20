@@ -301,4 +301,16 @@ Nethack is an old game where you walk in a dungeon and explore. Each level has a
 | :------------------------------------------------------------------ | :------------------------------------------|
 | 1. Player gets injured and health points become 0                   |                                            |                                                 
 |                                                                     | 2. System ends game session                |                         
-|                                                                     | 3. Player is taken to the title screen     |         
+|                                                                     | 3. Player is taken to the title screen     |     
+
+## Use Case #21
+**Use Case:** Character movement  
+**Actors:** System, Player  
+**Description:** Player enters direction to move in. System responds by moving the players location.  
+**Preconditions:** 1. Player must be in a cave.  
+**Concerned user stories:** 21  
+
+| Actor                                                               | System                                     |
+| :------------------------------------------------------------------ | :------------------------------------------|
+| 1. Player enters direction to move                                  |                                            |                                                 
+|                                                                     | 2. System updates players location         |                         

@@ -48,3 +48,4 @@ Order of importance, descending order:
 |6 | As a player I would like to be able to drop items from my inventory so that I can get rid of items that I do not want    |Player can drop items from backpack              |    #15        |
 |19| As a player I want to be able to interact with other characters in the game so that it gets more fun to play             |Player can interact with characters              |    #16        |
 |20| As a player I want to be able to customize my character so that I am different than other players                        |Player is able to customize character            |    -          |
+|21| As a player I should be able to walk around so that I can discover things                                                |Player can move around in the cave               |    -          |  
