@@ -18,6 +18,30 @@ Nethack is an old game where you walk in a dungeon and explore. Each level has a
 
 ## System Sequence Diagrams
 
-# Start the Game
+#### 1. Start the Game
 
 ![Start the Game](img/system_sequence_diagram/1_start_the_game.png "Start the Game")
+
+#### 4. Player interacts with new item
+
+![Player interacts with new item](img/system_sequence_diagram/4_player_interacts_with_new_item.png "Player interacts with new item")
+
+#### 5. Player interacts with gear in his backpack
+
+![Player interacts with gear in his backpack](img/system_sequence_diagram/5_player_interact_item_backpack.png "Player interacts with gear in his backpack")
+
+#### 15. Item interaction
+
+![Item interaction](img/system_sequence_diagram/15_item_interaction.png "Item interaction")
+
+#### 16. Enter new cave
+
+![Enter new cave](img/system_sequence_diagram/16_enter_new_cave.png "Enter new cave")
+
+#### 20. Player dies
+
+![Player dies](img/system_sequence_diagram/20_player_dies.png "Player dies")
+
+#### 21. Character Movement
+
+![Character Movement](img/system_sequence_diagram/21__character_movement.png "Character Movement")
