@@ -106,7 +106,7 @@ Nethack is an old game where you walk in a dungeon and explore. Each level has a
 **Actors:** Player, System  
 **Description:** A player enters a dungeon and discovers a character. Player presses key to start a dialog between the two. The system displays the dialog.  
 **Preconditions:** 1. Player must be in a cave. 2. There must be a character in the cave  
-**Concerned user stories:** 18
+**Concerned user stories:** 18, 19  
 
 | Actor                                                               | System                                                             |
 | :------------------------------------------------------------------ | :----------------------------------------------------------------- |
@@ -211,7 +211,9 @@ Nethack is an old game where you walk in a dungeon and explore. Each level has a
 | 1. Player opens his backpack                                        |                                                                                            |
 | 2. Player selects an item                                           |                                                                                            |
 | 3. Player enters the name of the person to send the item to         |                                                                                            |
-|                                                                     | 4. System removes item from players backpack and add the item to the other players backpack|
+|                                                                     | 4. System validates that the player exists                                                 |
+|                                                                     | 5. System removes item from players backpack                                               |
+|                                                                     | 6. System adds item to the other players backpack                                          |
 
 ## Use Case #14
 **Use Case:** Use items default action on pickup  
@@ -261,9 +263,9 @@ Nethack is an old game where you walk in a dungeon and explore. Each level has a
 
 | Actor                                                               | System                                                             |
 | :------------------------------------------------------------------ | :----------------------------------------------------------------- |
-| 1. Player enters “scan” in the command field                        |                                                                    |                                           
-|                                                                     | 2. System scans the page                                           |                         
-|                                                                     | 3. System creates cave                                             |                      
+| 1. Player enters a new cave                                         |                                                                    |                                           
+|                                                                     | 2. System notifies player that there is no more caves              |                         
+|                                                                     | 3. System scans API for new caves                                  |                      
 
 ## Use Case #18
 **Use Case:** Falling rocks  
