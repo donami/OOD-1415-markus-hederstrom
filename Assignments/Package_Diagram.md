@@ -1,7 +1,7 @@
 # Package Diagram for System TwitterNethack
 
 Assignment in the course PA1415 Programvarudesign  
-2017-04-24  
+2017-04-27  
 
 | Author Name	          | Social security number	| Thinking	 | Writing	|
 | -------------         |------------------------	| ---------- |--------- |
@@ -15,17 +15,17 @@ Nethack is an old game where you walk in a dungeon and explore. Each level has a
 
 ## Overall Packages
 
-| Package               | Brief Description	                                                                |
-| -------------         |---------------------------------------------------------------------------------	|
-|Presentation Layer     | User Interface. Contains the views that is displayed to the screen 		            |
-|Business Logic Layer   | Core functionality. Contains services that uses the Repository layer.      		    |
-|Storage                | Storage of state and session      		                                            |
-|Data Access Layer      | Data access objects. Handles typical CRUD operations. Repositories      		      |
-|External Services      | External services that are used in the application                                |
-|Database               | Database handlers, JDBC etc                                                       |
-|Entities               | Data Access Objects                                                               |
-|Repositories           | The repositories handle the actual fetching of the data needed.                   |
-|Services               | Handle information exchange between Data Access Layer and user interface.         |
+| Package | Brief Description	                                                                |
+| --------|---------------------------------------------------------------------------------- |
+|App      | Main application. Contains classes associated with the main app. 		              |
+|Menu     | Classes concerning the menu.      		                                            |
+|Game     | Game classes. Contains packages associated with the game and the main game class. |
+|Item     | Item classes and handlers.      		                                              |
+|Player   | Contains the player class and classes that are related with the player.           |
+|Util     | Util classes and helpers.                                                         |
+|Character| Package container for the character classes.                                      |
+|Cave     | Contains classes associated to cave class.                                        |
+
 
 ## Package Diagram
 
