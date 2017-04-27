@@ -45,31 +45,67 @@ Nethack is an old game where you walk in a dungeon and explore. Each level has a
 
 ## System Events
 ### System Events for Use Case “#1 Start the Game”:
-#### initializeGame()
+
+![Start the Game](img/system_sequence_diagram/1_start_the_game.png "Start the Game")
+
+#### Captured system events:
+
+* initializeGame()
 
 ### System Events for Use Case “#15 Item interaction”:
-#### openBackpack()
-#### useItem()
+
+![Item interaction](img/system_sequence_diagram/15_item_interaction.png "Item interaction")
+
+#### Captured system events:
+
+* openBackpack()
+* useItem()
 
 ### System Events for Use Case “#20 Player dies”:
-#### setHealth(0)
-#### endGameSession()
+
+![Player dies](img/system_sequence_diagram/20_player_dies.png "Player dies")
+
+#### Captured system events:
+
+* setHealth(0)
+* endGameSession()
 
 ### System Events for Use Case “#4 Player interacts with new item”:
-#### pickUpItem(item)
+
+![Player interacts with new item](img/system_sequence_diagram/4_player_interacts_with_new_item.png "Player interacts with new item")
+
+#### Captured system events:
+
+* pickUpItem(item)
 
 ### System Events for Use Case “#5 Player interacts with gear in his backpack”:
-#### openBackpack()
-#### displayItemInfo(item)
+
+![Player interacts with gear in his backpack](img/system_sequence_diagram/5_player_interact_item_backpack.png "Player interacts with gear in his backpack")
+
+#### Captured system events:
+* openBackpack()
+* displayItemInfo(item)
 
 ### System Events for Use Case “#16 Enter new cave”:
-#### enterCave(cave)
+
+![Enter new cave](img/system_sequence_diagram/16_enter_new_cave.png "Enter new cave")
+
+#### Captured system events:
+* enterCave(cave)
 
 ### System Events for Use Case “#21 Character movement”:
-#### moveDirection(direction)
+
+![Character Movement](img/system_sequence_diagram/21__character_movement.png "Character Movement")
+
+#### Captured system events:
+* moveDirection(direction)
 
 ### System Events for Use Case “#6 Interact with character”:
-#### interactWithCharacter(character)
+
+![Interact with character](img/system_sequence_diagram/6_interact_with_character.png "Interact with character")
+
+#### Captured system events:
+* interactWithCharacter(character)
 
 ## Interaction Diagrams
 

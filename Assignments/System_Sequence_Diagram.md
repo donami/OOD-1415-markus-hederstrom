@@ -42,6 +42,10 @@ Nethack is an old game where you walk in a dungeon and explore. Each level has a
 
 ![Player dies](img/system_sequence_diagram/20_player_dies.png "Player dies")
 
+#### 6. Interact with character
+
+![Interact with character](img/system_sequence_diagram/6_interact_with_character.png "Interact with character")
+
 #### 21. Character Movement
 
 ![Character Movement](img/system_sequence_diagram/21__character_movement.png "Character Movement")
