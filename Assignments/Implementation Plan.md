@@ -33,13 +33,13 @@ We prioritized the use cases for the system according to.
 |     1       |    #1 - Player starts a new game                        |    100    |
 |     16      |    #16 - Enter new cave                                 |    100    |
 |     21      |    #21 - Character movement                             |    100    |
-|     17      |    #17 - Scan page for other timelines                  |    100    |
 |     5       |    #5 - Player interacts with gear in his backpack      |    95     |
 |     15      |    #15 - Item interaction                               |    95     |
+|     4       |    #4 - Player interacts with new item                  |    90     |
+|     17      |    #17 - Scan page for other timelines                  |    85     |
 |     2       |    #2 - Player joins an existing game                   |    85     |
 |     10      |    #10 - Enter chat room                                |    80     |
 |     9       |    #9 - Send chat message                               |    80     |
-|     4       |    #4 - Player interacts with new item                  |    80     |
 |     6       |    #6 - Interact with character                         |    70     |
 |     8       |    #8 - Use default item action                         |    70     |
 |     11      |    #11 - Leave chat room                                |    70     |
