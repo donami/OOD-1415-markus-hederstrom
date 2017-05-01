@@ -112,58 +112,58 @@ Nethack is an old game where you walk in a dungeon and explore. Each level has a
 ### Use Case: “Start the Game”
 **initializeGame()**  
 
-![Initialize Game](img/interaction_diagrams/initialize_game.jpg "Initialize Game")
+![Initialize Game](img/interaction_diagrams/initialize_game.png "Initialize Game")
 
 ### Use Case “#15 Item interaction”:
 **openBackpack()**  
 
-![Open Backpack](img/interaction_diagrams/open_backpack.jpg "Open Backpack")
+![Open Backpack](img/interaction_diagrams/open_backpack.png "Open Backpack")
 
 **useItem()**  
 
-![Use Item](img/interaction_diagrams/use_item.jpg "Use Item")
+![Use Item](img/interaction_diagrams/use_item.png "Use Item")
 
 ### Use Case “#20 Player dies”:
 
 **setHealth(0)**  
 
-![Set Health](img/interaction_diagrams/set_health.jpg "Set Health")
+![Set Health](img/interaction_diagrams/set_health.png "Set Health")
 
 **endGameSession()**  
 
-![End Game Session](img/interaction_diagrams/end_game_session.jpg "End Game Session")
+![End Game Session](img/interaction_diagrams/end_game_session.png "End Game Session")
 
 
 ### Use Case “#4 Player interacts with new item”:
 
 **pickUpItem(item)**  
 
-![Pickup Item](img/interaction_diagrams/pickup_item.jpg "Pickup Item")
+![Pickup Item](img/interaction_diagrams/pickup_item.png "Pickup Item")
 
 ### Use Case “#5 Player interacts with gear in his backpack”:
 
 **openBackpack()**  
 
-![Open Backpack](img/interaction_diagrams/open_backpack.jpg "Open Backpack")
+![Open Backpack](img/interaction_diagrams/open_backpack.png "Open Backpack")
 
 **displayItemInfo(item)**  
 
-![Display Item Info](img/interaction_diagrams/display_item_info.jpg "Display Item Info")
+![Display Item Info](img/interaction_diagrams/display_item_info.png "Display Item Info")
 
 ### Use Case “#16 Enter new cave”:
 
 **enterCave(cave)**  
 
-![Enter Cave](img/interaction_diagrams/enter_cave.jpg "Enter Cave")
+![Enter Cave](img/interaction_diagrams/enter_cave.png "Enter Cave")
 
 ### Use Case “#21 Character movement”:
 
 **moveDirection(direction)**  
 
-![Move Direction](img/interaction_diagrams/move_direction.jpg "Move Direction")
+![Move Direction](img/interaction_diagrams/move_direction.png "Move Direction")
 
 ### Use Case “#6 Interact with character”
 
 **interactWithCharacter(character)**  
 
-![Interact with Character](img/interaction_diagrams/interactWithCharacter.jpg "Interact with Character")
+![Interact with Character](img/interaction_diagrams/interact_with_character.png "Interact with Character")
