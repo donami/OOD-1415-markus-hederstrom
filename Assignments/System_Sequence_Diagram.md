@@ -48,4 +48,4 @@ Nethack is an old game where you walk in a dungeon and explore. Each level has a
 
 #### 21. Character Movement
 
-![Character Movement](img/system_sequence_diagram/21__character_movement.png "Character Movement")
+![Character Movement](img/system_sequence_diagram/21_character_movement.png "Character Movement")
