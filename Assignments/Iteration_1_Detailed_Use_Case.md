@@ -133,4 +133,5 @@ Nethack is an old game where you walk in a dungeon and explore. Each level has a
 | Actor                                                               | System                                     |
 | :------------------------------------------------------------------ | :------------------------------------------|
 | 1. Player enters direction to move                                  |                                            |                                                 
-|                                                                     | 2. System updates players location         |           
+|                                                                     | 2. System updates players location         |   
+**Alternate flow of events:** 2. It is not possible to move in that direction. System lets the user know.        
