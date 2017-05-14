@@ -25,6 +25,7 @@ Nethack is an old game where you walk in a dungeon and explore. Each level has a
 |Util     | Util classes and helpers.                                                         |
 |Character| Package container for the character classes.                                      |
 |Cave     | Contains classes associated to cave class.                                        |
+|Observer | Contains classes related to the observer pattern.                                 |
 
 
 ## Package Diagram
