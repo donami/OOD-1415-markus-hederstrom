@@ -6,7 +6,7 @@ Assignment in the course PA1415 Programvarudesign
 ### Authors And Author Contribution
 
 | Author Name	          | Social security number	| Thinking	 | Writing	|
-| -------------         |------------------------	| ---------- |--------- |
+|-----------------------|-------------------------|------------|----------|
 |Markus Hederström      | 930712-0916 		        |   25% 	   |	     25%|
 |Kristoffer Danbrandt   | 880429-7490      		    |   25% 	   |		   25%|
 |Dag Wirström           | 931022-8177      		    |   25% 	   |		   25%|

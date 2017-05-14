@@ -4,7 +4,7 @@ Assignment in the course PA1415 Programvarudesign
 2017-04-27  
 
 | Author Name	          | Social security number	| Thinking	 | Writing	|
-| -------------         |------------------------	| ---------- |--------- |
+|-----------------------|-------------------------|------------|----------|
 |Markus Hederström      | 930712-0916 		        |   25% 	   |	     25%|
 |Kristoffer Danbrandt   | 880429-7490      		    |   25% 	   |		   25%|
 |Dag Wirström           | 931022-8177      		    |   25% 	   |		   25%|
@@ -29,4 +29,4 @@ Nethack is an old game where you walk in a dungeon and explore. Each level has a
 
 ## Package Diagram
 
-![Package Diagram](img/package_diagram.jpg "Package Diagram")
+![Package Diagram](img/package_diagram.png "Package Diagram")
