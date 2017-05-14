@@ -30,3 +30,5 @@ Nethack is an old game where you walk in a dungeon and explore. Each level has a
 ## Package Diagram
 
 ![Package Diagram](img/package_diagram.png "Package Diagram")
+
+[Full size diagram](https://raw.githubusercontent.com/donami/OOD-1415-markus-hederstrom/master/Assignments/img/package_diagram.png)
